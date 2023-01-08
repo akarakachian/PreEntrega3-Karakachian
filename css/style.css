@@ -116,6 +116,10 @@ h6 {
   margin-top: 55px;
 }
 
+.cuadrado p {
+  text-align: center;
+}
+
 .imagen img {
   border-radius: 50%;
   box-shadow: 20px 10px 5px lightblue;
