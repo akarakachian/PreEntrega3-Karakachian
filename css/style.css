@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(128, 240, 199);
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: white;
+  /* background-image: url("../Assets/img/13087.jpg"); */
+}
+
+.navBar {
+  background-color: rgba(149, 149, 147, 0.692);
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  list-style: none;
+  gap: 20px;
+}
+
+.navBar li {
+  list-style: none;
+  list-style-position: inside-position;
+  list-style-image: url("../Assets/img/grafico-de-crecimiento.png");
+}
+
+.navBar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.navBar li a:hover {
+  color: grey;
+}
+
+h1 {
+  color: rgb(7, 8, 8);
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(4, 0, 0);
+  /* background-image: url("../Assets/img/sean-pollock-PhYq704ffdA-unsplash.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  /* width: 100%;
+  height: 500px; */
+}
+
+h2 {
+  color: rgba(85, 95, 87, 0.61);
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  /* margin-top: 55px; */
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  text-align: center;
+}
+
+h5 {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  text-align: center;
+}
+
+h6 {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+h6 {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.título-productos {
+  margin-top: 25px;
+}
+.productos {
+  font-weight: 50;
+  font-size: 20px;
+  list-style: none;
+  list-style-position: inside;
+  list-style-image: url("../Assets/img/grafico-de-crecimiento.png");
+}
+
+.cuadrado {
+  background: rgba(104, 104, 78, 0.692);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  margin-top: 55px;
+}
+
+.imagen img {
+  border-radius: 50%;
+  box-shadow: 20px 10px 5px lightblue;
+  margin: 50px;
+}
+
+.imagen2 img {
+  border-radius: 50%;
+  box-shadow: 20px 10px 5px lightblue;
+  margin: 50px;
+}
+
+.contenedor-imagenes {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  grid-area: contenedor-imagenes;
+}
+
+.img-1 {
+  margin-right: 50px;
+}
+
+.img-2 {
+  margin-left: 50px;
+}
+
+.contenedor-imagenes-2 {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  grid-area: contenedor-imagenes-2;
+}
+
+.img-3 {
+  margin-right: 50px;
+}
+
+.img-4 {
+  margin-left: 50px;
+}
+
+.empleo {
+  background-color: rgb(181, 181, 243);
+  display: grid;
+  width: 100%;
+  grid-area: empleo;
+  border: 1px solid rgb(70, 69, 69);
+}
+
+.busqueda {
+  background-color: rgb(181, 181, 243);
+  display: grid;
+  width: 100%;
+  grid-area: empleo;
+  border: 1px solid rgb(70, 69, 69);
+  margin-top: 10px;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas:
+    "item1 item1 item1 item1 item1"
+    "item2 item2 item3 item3 item3"
+    "item2 item2 item3 item3 item3"
+    "item4 item4 item4 item4 item4"
+    "item5 item5 item5 item5 item5";
+  gap: 20px;
+}
+
+.item1 {
+  grid-area: item1;
+  background-color: rgb(181, 181, 243);
+  border: 1px solid rgb(70, 69, 69);
+}
+
+.item2 {
+  grid-area: item2;
+  background-color: rgb(181, 181, 243);
+  border: 1px solid rgb(70, 69, 69);
+}
+
+.item3 {
+  grid-area: item3;
+  background-color: rgb(181, 181, 243);
+  border: 1px solid rgb(70, 69, 69);
+}
+
+.item4 {
+  grid-area: item4;
+  background-color: rgb(181, 181, 243);
+  border: 1px solid rgb(70, 69, 69);
+}
+.item5 {
+  grid-area: item5;
+  background-color: rgb(181, 181, 243);
+  border: 1px solid rgb(70, 69, 69);
+}
+
+@media (max-width: 768px) {
+  .navBar {
+    background-color: rgb(99, 152, 132);
+    flex-direction: column;
+    align-items: center;
+  }
+  .navBar li a {
+    color: white;
+    font-size: 20px;
+  }
+  .navBar li a:hover {
+    color: grey;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "item1 item1 item1"
+      "item3 item3 item2"
+      "item4 item4 item5";
+  }
+
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "empleo";
+  }
+}
+
+@media (max-width: 320px) {
+  .navBar {
+    background-color: rgb(105, 135, 151);
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navBar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+
+  .navBar li a:hover {
+    color: grey;
+  }
+
+  h1 {
+    color: rgb(7, 8, 8);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(7, 8, 8);
+    font-size: 15px;
+    text-align: center;
+  }
+
+  h3 {
+    color: black;
+    font-size: 12px;
+  }
+
+  .item1 {
+    font-size: 12px;
+  }
+
+  .item2 {
+    font-size: 12px;
+  }
+
+  .item3 {
+    font-size: 12px;
+  }
+
+  .item4 {
+    font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (5, 1fr);
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3"
+      "item4"
+      "item5";
+  }
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "empleo";
+  }
+
+  .empleo {
+    font-size: 12px;
+  }
+
+  .busqueda {
+    font-size: 12px;
+  }
+} ;
