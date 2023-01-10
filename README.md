@@ -1,1 +1,1 @@
-Buenas: esta es mi segunda entrega del TP de Coderhouse. Conforme las consignas, solo apliqué el responsive a 2 HTML (index y empleos)
+Buenas: esta es mi segunda entrega del TP de Coderhouse. Conforme las consignas, solo apliqué el responsive a 2 HTML (index y empleos) y no así a los restantes HTML. Por otro lado, resalto que me faltaron ajustar algunas líneas de código en los otros HTML (por ejemplo, en productos.html, tuve problemas con el color del fondo).
