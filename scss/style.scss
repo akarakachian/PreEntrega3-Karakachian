@@ -5,6 +5,8 @@ body {
   position: relative;
   padding-bottom: 3em;
 }
+@import "./utilities/variables";
+@import "./base/typo";
 @import "./base/reset";
 @import "./layout/header";
 @import "./layout/main.index";

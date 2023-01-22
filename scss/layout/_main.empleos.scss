@@ -28,6 +28,15 @@
   grid-area: busqueda;
 }
 
+.trabajar {
+  font-weight: 100;
+  font-size: 25px;
+  font-family: $typo-secundario;
+  text-align: center;
+  margin-top: 10px;
+  border: 1.5px solid rgb(70, 69, 69);
+}
+
 .item10 {
   grid-area: item4;
   width: 100%;
