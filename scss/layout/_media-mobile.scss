@@ -99,6 +99,14 @@
       "producto4";
   }
 
+  .formulario {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "formulario-registro"
+      "item4";
+  }
+
   .empleo {
     font-size: 12px;
   }
