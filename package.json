@@ -1,0 +1,25 @@
+{
+  "name": "tp-coder-sass",
+  "version": "1.0.0",
+  "description": "Buenas: esta es mi segunda entrega del TP de Coderhouse. Conforme las consignas, solo apliqué el responsive a 2 HTML (index y empleos) y no así a los restantes HTML. Por otro lado, resalto que me faltaron ajustar algunas líneas de código en los otros HTML (por ejemplo, en productos.html, tuve problemas con el color del fondo).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akarakachian/SEGUNDA.ENTREGA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akarakachian/SEGUNDA.ENTREGA/issues"
+  },
+  "homepage": "https://github.com/akarakachian/SEGUNDA.ENTREGA#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,44 @@
+.grid2 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(1, fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "empleo"
+    "busqueda"
+    "item10";
+  gap: 20px;
+}
+
+.empleo {
+  background-color: rgb(181, 181, 243);
+  display: grid;
+  width: 100%;
+  grid-area: empleo;
+  border: 1px solid rgb(70, 69, 69);
+  grid-area: empleo;
+}
+
+.busqueda {
+  background-color: rgb(181, 181, 243);
+  display: grid;
+  width: 100%;
+  grid-area: empleo;
+  border: 1px solid rgb(70, 69, 69);
+  grid-area: busqueda;
+}
+
+.item10 {
+  grid-area: item4;
+  width: 100%;
+  background-color: rgba(104, 104, 78, 0.692);
+  border: 1px solid rgb(70, 69, 69);
+  bottom: 0;
+  padding: 1em 0;
+  position: absolute;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}

@@ -1,0 +1,32 @@
+header {
+  background-color: #80f0c7;
+  margin-bottom: 10px;
+}
+
+.navBar {
+  background-color: rgba(149, 149, 147, 0.692);
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.navBar li pr {
+  margin-right: 20px;
+}
+
+.navBar li {
+  list-style: none;
+  list-style-position: inside-position;
+  list-style-image: url("../Assets/img/grafico-de-crecimiento.png");
+}
+
+.navBar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.navBar li a:hover {
+  color: grey;
+}

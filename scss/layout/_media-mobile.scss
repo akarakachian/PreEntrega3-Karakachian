@@ -1,0 +1,109 @@
+@media (max-width: 320px) {
+  .navBar {
+    background-color: rgb(105, 135, 151);
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navBar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+
+  .navBar li a:hover {
+    color: grey;
+  }
+
+  h1 {
+    color: rgb(7, 8, 8);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(7, 8, 8);
+    font-size: 15px;
+    text-align: center;
+  }
+
+  h3 {
+    color: black;
+    font-size: 12px;
+  }
+
+  .item1 {
+    font-size: 12px;
+  }
+
+  .item2 {
+    font-size: 12px;
+  }
+
+  .item3 {
+    font-size: 12px;
+  }
+
+  .item4 {
+    font-size: 12px;
+  }
+
+  .item5 {
+    font-size: 8px;
+    margin-top: 40px;
+  }
+
+  footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (5, 1fr);
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3"
+      "item4"
+      "item5";
+  }
+  .grid2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "busqueda"
+      "empleo"
+      "item4";
+  }
+
+  .grid3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "imagen-1"
+      "imagen-2"
+      "imagen-3"
+      "imagen-4";
+  }
+
+  .venta {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "producto1"
+      "producto2"
+      "producto3"
+      "producto4";
+  }
+
+  .empleo {
+    font-size: 12px;
+  }
+
+  .busqueda {
+    font-size: 12px;
+  }
+} ;

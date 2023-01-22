@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+  .navBar {
+    background-color: rgb(99, 152, 132);
+    flex-direction: column;
+    align-items: center;
+  }
+  .navBar li a {
+    color: white;
+    font-size: 20px;
+  }
+  .navBar li a:hover {
+    color: grey;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "item1 item1 item1"
+      "item3 item3 item2"
+      "item3 item3 item2"
+      "item4 item4 item4";
+  }
+
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "busqueda"
+      "empleo"
+      "item10";
+  }
+
+  .grid3 {
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+    width: 100%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "imagen-1"
+      "imagen-2"
+      "imagen-3"
+      "imagen-4"
+      "item4";
+  }
+
+  .imagen-1 {
+    text-align: center;
+  }
+  .imagen-2 {
+    text-align: center;
+  }
+  .imagen-3 {
+    text-align: center;
+  }
+  .imagen-4 {
+    text-align: center;
+  }
+}

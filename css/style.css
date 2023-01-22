@@ -1,240 +1,134 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header {
-  background-color: rgb(128, 240, 199);
-  margin-bottom: 10px;
-}
-
 body {
   background-color: white;
   margin: 0;
   min-height: 100vh;
   position: relative;
-  padding-bottom: 3em;
-  /* background-image: url("../Assets/img/13087.jpg"); */
-}
+  padding-bottom: 3em; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #80f0c7;
+  margin-bottom: 10px; }
 
 .navBar {
   background-color: rgba(149, 149, 147, 0.692);
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 20px;
-}
+  gap: 20px; }
 
 .navBar li pr {
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 .navBar li {
   list-style: none;
   list-style-position: inside-position;
-  list-style-image: url("../Assets/img/grafico-de-crecimiento.png");
-}
+  list-style-image: url("../Assets/img/grafico-de-crecimiento.png"); }
 
 .navBar li a {
   text-decoration: none;
   color: black;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .navBar li a:hover {
-  color: grey;
-}
-
-footer {
-  background-color: rgba(104, 104, 78, 0.692);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
-  padding: 1em 0;
-  position: absolute;
-  clear: both;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  margin-top: auto;
-}
-
-/* .footer isd {
-  margin-right: 30px;
-  display: flex;
-  justify-content: center;
-} */
+  color: grey; }
 
 h1 {
-  color: rgb(7, 8, 8);
+  color: #070808;
   font-size: 40px;
   text-align: center;
-  text-shadow: 2px 2px 5px rgb(4, 0, 0);
-  /* background-image: url("../Assets/img/sean-pollock-PhYq704ffdA-unsplash.jpg"); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  /* width: 100%;
-  height: 500px; */
-}
-
-h2 {
-  color: rgba(85, 95, 87, 0.61);
-  font-weight: 100;
-  font-size: 30px;
-  text-align: center;
-  /* margin-top: 55px; */
-}
-
-h3 {
-  font-weight: 100;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 50px;
-}
-
-h4 {
-  font-weight: 100;
-  font-size: 30px;
-  text-align: center;
-  text-align: center;
-}
-
-h5 {
-  font-weight: 100;
-  font-size: 30px;
-  text-align: center;
-  text-align: center;
-}
-
-h6 {
-  font-weight: 100;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 55px;
-}
-
-h6 {
-  font-weight: 100;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 55px;
-}
-
-.título-productos {
-  margin-top: 25px;
-}
-.productos {
-  font-weight: 50;
-  font-size: 20px;
-  list-style: none;
-  list-style-position: inside;
-  list-style-image: url("../Assets/img/grafico-de-crecimiento.png");
-}
-
-/* .cuadrado {
-  background: rgba(104, 104, 78, 0.692);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
-  width: 100%;
-  height: 40px;
-  padding: 1em 0;
-  text-align: center;
-  margin-top: auto;
-  /* margin-top: 55px; */
-/* } */
-
-/* .cuadrado p {
-  text-align: center;
-} */
-*/ .imagen img {
-  border-radius: 50%;
-  box-shadow: 20px 10px 5px lightblue;
-  margin: 50px;
-}
-
-.imagen2 img {
-  border-radius: 50%;
-  box-shadow: 20px 10px 5px lightblue;
-  margin: 50px;
-}
-
-.img-1 {
-  margin-right: 50px;
-}
-
-.img-2 {
-  margin-left: 50px;
-}
-
-.img-3 {
-  margin-right: 50px;
-}
-
-.img-4 {
-  margin-left: 50px;
-}
-
-.empleo {
-  background-color: rgb(181, 181, 243);
-  display: grid;
-  width: 100%;
-  grid-area: empleo;
-  border: 1px solid rgb(70, 69, 69);
-  grid-area: empleo;
-}
-
-.busqueda {
-  background-color: rgb(181, 181, 243);
-  display: grid;
-  width: 100%;
-  grid-area: empleo;
-  border: 1px solid rgb(70, 69, 69);
-  grid-area: busqueda;
-}
+  text-shadow: 2px 2px 5px #040000; }
 
 .grid {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-    "item1 item1 item1 item1 item1"
-    "item1 item1 item1 item1 item1"
-    "item2 item2 item3 item3 item3"
-    "item2 item2 item3 item3 item3"
-    "item4 item4 item4 item4 item4";
+  grid-template-areas: "item1 item1 item1 item1 item1" "item1 item1 item1 item1 item1" "item2 item2 item3 item3 item3" "item2 item2 item3 item3 item3" "item4 item4 item4 item4 item4";
+  gap: 20px; }
 
-  gap: 20px;
-}
+h2 {
+  color: rgba(85, 95, 87, 0.61);
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center; }
+
+.item1 {
+  grid-area: item1;
+  background-color: #b5b5f3;
+  border: 1px solid #464545; }
+
+.item2 {
+  grid-area: item2;
+  background-color: #b5b5f3;
+  border: 1px solid #464545; }
+
+.item3 {
+  grid-area: item3;
+  background-color: #b5b5f3;
+  border: 1px solid #464545; }
+
+.item4 {
+  grid-area: item4;
+  width: 100%;
+  background-color: rgba(104, 104, 78, 0.692);
+  border: 1px solid #464545;
+  bottom: 0;
+  padding: 1em 0;
+  position: absolute;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto; }
 
 .grid2 {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(1, fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-template-areas:
-    "empleo"
-    "busqueda"
-    "item10";
-  gap: 20px;
-}
+  grid-template-areas: "empleo" "busqueda" "item10";
+  gap: 20px; }
 
-.venta {
+.empleo {
+  background-color: #b5b5f3;
   display: grid;
   width: 100%;
-  height: 100%;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas:
-    "producto1 producto3"
-    "producto2 producto4"
-    "item4 item4";
-  gap: 20px;
-}
+  grid-area: empleo;
+  border: 1px solid #464545;
+  grid-area: empleo; }
+
+.busqueda {
+  background-color: #b5b5f3;
+  display: grid;
+  width: 100%;
+  grid-area: empleo;
+  border: 1px solid #464545;
+  grid-area: busqueda; }
+
+.item10 {
+  grid-area: item4;
+  width: 100%;
+  background-color: rgba(104, 104, 78, 0.692);
+  border: 1px solid #464545;
+  bottom: 0;
+  padding: 1em 0;
+  position: absolute;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto; }
+
+h6 {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 55px; }
 
 .grid3 {
   display: grid;
@@ -242,100 +136,30 @@ h6 {
   height: 100%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-template-areas:
-    "imagen-1 imagen-2"
-    "imagen-3 imagen-4"
-    "item4 item4";
-  gap: 30px;
-}
+  grid-template-areas: "imagen-1 imagen-2" "imagen-3 imagen-4" "item4 item4";
+  gap: 30px; }
 
 .imagen-1 {
   grid-area: imagen-1;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
+
 .imagen-2 {
   grid-area: imagen-2;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
+
 .imagen-3 {
   grid-area: imagen-3;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
+
 .imagen-4 {
   grid-area: imagen-4;
-  margin-left: 50px;
-}
-
-/* .contenedor-imagenes {
-  margin-top: 55px;
-  display: flex;
-  justify-content: center;
-  grid-area: contenedor-imagenes;
-}
-
-.contenedor-imagenes-2 {
-  margin-top: 55px;
-  display: flex;
-  justify-content: center;
-  grid-area: contenedor-imagenes-2;
-} */
-
-.producto1 {
-  grid-area: producto1;
-}
-.producto2 {
-  grid-area: producto2;
-}
-.producto3 {
-  grid-area: producto3;
-}
-.producto4 {
-  grid-area: producto4;
-}
-
-.producto1 p {
-  border: 1px solid rgb(70, 69, 69);
-  background-color: rgb(181, 181, 243);
-}
-
-.producto2 p {
-  border: 1px solid rgb(70, 69, 69);
-  background-color: rgb(181, 181, 243);
-}
-
-.producto3 p {
-  border: 1px solid rgb(70, 69, 69);
-  background-color: rgb(181, 181, 243);
-}
-
-.producto4 p {
-  border: 1px solid rgb(70, 69, 69);
-  background-color: rgb(181, 181, 243);
-}
-
-.item1 {
-  grid-area: item1;
-  background-color: rgb(181, 181, 243);
-  border: 1px solid rgb(70, 69, 69);
-}
-
-.item2 {
-  grid-area: item2;
-  background-color: rgb(181, 181, 243);
-  border: 1px solid rgb(70, 69, 69);
-}
-
-.item3 {
-  grid-area: item3;
-  background-color: rgb(181, 181, 243);
-  border: 1px solid rgb(70, 69, 69);
-}
+  margin-left: 50px; }
 
 .item4 {
   grid-area: item4;
   width: 100%;
   background-color: rgba(104, 104, 78, 0.692);
-  border: 1px solid rgb(70, 69, 69);
+  border: 1px solid #464545;
   bottom: 0;
   padding: 1em 0;
   position: absolute;
@@ -343,14 +167,50 @@ h6 {
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin-top: auto;
-}
+  margin-top: auto; }
 
-.item10 {
+.venta {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "producto1 producto3" "producto2 producto4" "item4 item4";
+  gap: 20px; }
+
+.producto1 {
+  grid-area: producto1; }
+
+.producto2 {
+  grid-area: producto2; }
+
+.producto3 {
+  grid-area: producto3; }
+
+.producto4 {
+  grid-area: producto4; }
+
+.producto1 p {
+  border: 1px solid #464545;
+  background-color: #b5b5f3; }
+
+.producto2 p {
+  border: 1px solid #464545;
+  background-color: #b5b5f3; }
+
+.producto3 p {
+  border: 1px solid #464545;
+  background-color: #b5b5f3; }
+
+.producto4 p {
+  border: 1px solid #464545;
+  background-color: #b5b5f3; }
+
+.item4 {
   grid-area: item4;
   width: 100%;
   background-color: rgba(104, 104, 78, 0.692);
-  border: 1px solid rgb(70, 69, 69);
+  border: 1px solid #464545;
   bottom: 0;
   padding: 1em 0;
   position: absolute;
@@ -358,180 +218,97 @@ h6 {
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin-top: auto;
-}
-.item5 {
-  grid-area: item5;
-  background-color: rgb(181, 181, 243);
-  border: 1px solid rgb(70, 69, 69);
-}
+  margin-top: auto; }
 
+/**/
 @media (max-width: 768px) {
   .navBar {
-    background-color: rgb(99, 152, 132);
+    background-color: #639884;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
   .navBar li a {
     color: white;
-    font-size: 20px;
-  }
+    font-size: 20px; }
   .navBar li a:hover {
-    color: grey;
-  }
-
+    color: grey; }
   .grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-      "item1 item1 item1"
-      "item3 item3 item2"
-      "item3 item3 item2"
-      "item4 item4 item4";
-  }
-
+    grid-template-areas: "item1 item1 item1" "item3 item3 item2" "item3 item3 item2" "item4 item4 item4"; }
   .grid2 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-      "busqueda"
-      "empleo"
-      "item10";
-  }
-
+    grid-template-areas: "busqueda" "empleo" "item10"; }
   .grid3 {
     grid-template-columns: repeat(1, 1fr);
     height: 100%;
     width: 100%;
     grid-template-rows: repeat(5, 1fr);
-    grid-template-areas:
-      "imagen-1"
-      "imagen-2"
-      "imagen-3"
-      "imagen-4"
-      "item4";
-  }
-
+    grid-template-areas: "imagen-1" "imagen-2" "imagen-3" "imagen-4" "item4"; }
   .imagen-1 {
-    text-align: center;
-  }
+    text-align: center; }
   .imagen-2 {
-    text-align: center;
-  }
+    text-align: center; }
   .imagen-3 {
-    text-align: center;
-  }
+    text-align: center; }
   .imagen-4 {
-    text-align: center;
-  }
-}
+    text-align: center; } }
 
 @media (max-width: 320px) {
   .navBar {
-    background-color: rgb(105, 135, 151);
+    background-color: #698797;
     align-items: center;
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   .navBar li a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
-  }
-
+    font-size: 15px; }
   .navBar li a:hover {
-    color: grey;
-  }
-
+    color: grey; }
   h1 {
-    color: rgb(7, 8, 8);
+    color: #070808;
     font-size: 20px;
-    text-align: center;
-  }
-
+    text-align: center; }
   h2 {
-    color: rgb(7, 8, 8);
+    color: #070808;
     font-size: 15px;
-    text-align: center;
-  }
-
+    text-align: center; }
   h3 {
     color: black;
-    font-size: 12px;
-  }
-
+    font-size: 12px; }
   .item1 {
-    font-size: 12px;
-  }
-
+    font-size: 12px; }
   .item2 {
-    font-size: 12px;
-  }
-
+    font-size: 12px; }
   .item3 {
-    font-size: 12px;
-  }
-
+    font-size: 12px; }
   .item4 {
-    font-size: 12px;
-  }
-
+    font-size: 12px; }
   .item5 {
     font-size: 8px;
-    margin-top: 40px;
-  }
-
+    margin-top: 40px; }
   footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    margin-top: 20px;
-  }
-
+    margin-top: 20px; }
   .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat (5, 1fr);
-    grid-template-areas:
-      "item1"
-      "item2"
-      "item3"
-      "item4"
-      "item5";
-  }
+    grid-template-rows: repeat 5, 1fr;
+    grid-template-areas: "item1" "item2" "item3" "item4" "item5"; }
   .grid2 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-      "busqueda"
-      "empleo"
-      "item4";
-  }
-
+    grid-template-areas: "busqueda" "empleo" "item4"; }
   .grid3 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-      "imagen-1"
-      "imagen-2"
-      "imagen-3"
-      "imagen-4";
-  }
-
+    grid-template-areas: "imagen-1" "imagen-2" "imagen-3" "imagen-4"; }
   .venta {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-      "producto1"
-      "producto2"
-      "producto3"
-      "producto4";
-  }
-
+    grid-template-areas: "producto1" "producto2" "producto3" "producto4"; }
   .empleo {
-    font-size: 12px;
-  }
-
+    font-size: 12px; }
   .busqueda {
-    font-size: 12px;
-  }
-} ;
+    font-size: 12px; } }
