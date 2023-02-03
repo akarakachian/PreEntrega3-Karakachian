@@ -45,41 +45,47 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px 5px #040000; }
 
+body {
+  text-align: center;
+  background: url("../Assets/img/13087.jpg"); }
+
 .grid {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "item1 item1 item1 item1 item1" "item1 item1 item1 item1 item1" "item2 item2 item3 item3 item3" "item2 item2 item3 item3 item3" "item4 item4 item4 item4 item4";
+  height: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "item1 item1 item1" "item2 item2 item2" "item3 item3 item3";
   gap: 20px; }
 
 h2 {
-  color: rgba(85, 95, 87, 0.61);
+  color: black;
   font-weight: 100;
   font-size: 30px;
   text-align: center; }
 
+.oficinas {
+  grid-area: oficinas; }
+
 .item1 {
   grid-area: item1;
-  background-color: #b5b5f3;
-  border: 1px solid #464545; }
+  background-color: rgba(171, 164, 164, 0.646);
+  border: 1px solid #716c6c; }
 
 .item2 {
   grid-area: item2;
-  background-color: #b5b5f3;
+  background-color: rgba(171, 164, 164, 0.646);
   border: 1px solid #464545; }
 
 .item3 {
   grid-area: item3;
-  background-color: #b5b5f3;
+  background-color: rgba(171, 164, 164, 0.646);
   border: 1px solid #464545; }
 
-.item4 {
-  grid-area: item4;
+footer {
   width: 100%;
   background-color: rgba(104, 104, 78, 0.692);
   border: 1px solid #464545;
-  bottom: 0;
   padding: 1em 0;
   position: absolute;
   clear: both;
@@ -91,13 +97,13 @@ h2 {
 .grid2 {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(1, fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "empleo" "busqueda" "item10";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "empleo empleo" "busqueda busqueda" "compliance secretary" "item10 item10";
   gap: 20px; }
 
 .empleo {
-  background-color: #b5b5f3;
+  background-color: rgba(171, 164, 164, 0.646);
   display: grid;
   width: 100%;
   grid-area: empleo;
@@ -105,7 +111,7 @@ h2 {
   grid-area: empleo; }
 
 .busqueda {
-  background-color: #b5b5f3;
+  background-color: rgba(171, 164, 164, 0.646);
   display: grid;
   width: 100%;
   grid-area: empleo;
@@ -119,6 +125,14 @@ h2 {
   text-align: center;
   margin-top: 10px;
   border: 1.5px solid #464545; }
+
+.compliance {
+  border: 1px solid #464545;
+  grid-area: compliance; }
+
+.secretary {
+  border: 1px solid #464545;
+  grid-area: secretary; }
 
 .item10 {
   grid-area: item4;
@@ -139,7 +153,7 @@ h6 {
   font-size: 25px;
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  margin-top: 55px;
+  margin-top: 25px;
   border: 1.5px solid #464545; }
 
 .grid3 {
@@ -149,23 +163,29 @@ h6 {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "imagen-1 imagen-2" "imagen-3 imagen-4" "item4 item4";
-  gap: 30px; }
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px; }
 
 .imagen-1 {
   grid-area: imagen-1;
-  margin-left: 200px; }
+  display: block;
+  margin: auto; }
 
 .imagen-2 {
   grid-area: imagen-2;
-  margin-left: 50px; }
+  display: block;
+  margin: auto; }
 
 .imagen-3 {
   grid-area: imagen-3;
-  margin-left: 200px; }
+  display: block;
+  margin: auto; }
 
 .imagen-4 {
   grid-area: imagen-4;
-  margin-left: 50px; }
+  display: block;
+  margin: auto; }
 
 .item4 {
   grid-area: item4;
@@ -181,6 +201,18 @@ h6 {
   text-align: center;
   margin-top: auto; }
 
+.agustin {
+  font-weight: bold; }
+
+.jorge {
+  font-weight: bold; }
+
+.lucas {
+  font-weight: bold; }
+
+.martin {
+  font-weight: bold; }
+
 .venta {
   display: grid;
   width: 100%;
@@ -188,7 +220,7 @@ h6 {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "producto1 producto3" "producto2 producto4" "item4 item4";
-  gap: 20px; }
+  gap: 50px; }
 
 .producto1 {
   grid-area: producto1; }
@@ -204,19 +236,19 @@ h6 {
 
 .producto1 p {
   border: 1px solid #464545;
-  background-color: #b5b5f3; }
+  background-color: rgba(171, 164, 164, 0.646); }
 
 .producto2 p {
   border: 1px solid #464545;
-  background-color: #b5b5f3; }
+  background-color: rgba(171, 164, 164, 0.646); }
 
 .producto3 p {
   border: 1px solid #464545;
-  background-color: #b5b5f3; }
+  background-color: rgba(171, 164, 164, 0.646); }
 
 .producto4 p {
   border: 1px solid #464545;
-  background-color: #b5b5f3; }
+  background-color: rgba(171, 164, 164, 0.646); }
 
 .ofrecemos {
   text-align: center;
@@ -275,15 +307,23 @@ h6 {
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "item1 item1 item1" "item3 item3 item2" "item3 item3 item2" "item4 item4 item4"; }
   .grid2 {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "busqueda" "empleo" "item10"; }
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "busqueda busqueda" "empleo empleo" "compliance secretary" "item10 item10"; }
   .grid3 {
     grid-template-columns: repeat(1, 1fr);
     height: 100%;
     width: 100%;
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: "imagen-1" "imagen-2" "imagen-3" "imagen-4" "item4"; }
+  .venta {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "producto1 producto3" "producto2 producto4" "item4 item4";
+    gap: 50px; }
   .imagen-1 {
     text-align: center; }
   .imagen-2 {
@@ -337,12 +377,49 @@ h6 {
     grid-template-areas: "item1" "item2" "item3" "item4" "item5"; }
   .grid2 {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "busqueda" "empleo" "item4"; }
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "busqueda" "empleo" "compliance" "secretary" "item10"; }
+  .imagen-1 img {
+    grid-area: imagen-1;
+    width: 40px;
+    margin-left: 0px; }
+  .imagen-2 img {
+    grid-area: imagen-2;
+    width: 40px;
+    margin-left: 0px; }
+  .imagen-3 img {
+    grid-area: imagen-3;
+    width: 40px;
+    margin-left: 0px; }
+  .imagen-4 img {
+    grid-area: imagen-4;
+    width: 40px;
+    margin-left: 0px; }
+  .agustin {
+    font-weight: bold;
+    font-size: 10px; }
+  .jorge {
+    font-weight: bold;
+    font-size: 10px; }
+  .lucas {
+    font-weight: bold;
+    font-size: 10px; }
+  .martin {
+    font-weight: bold;
+    font-size: 10px; }
+  .btn {
+    font-size: 12px; }
+  h6 {
+    font-weight: 30;
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    margin-top: 25px;
+    border: 1.5px solid #464545; }
   .grid3 {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: "imagen-1" "imagen-2" "imagen-3" "imagen-4"; }
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "imagen-1 imagen-2" "imagen-3 imagen-4" "item4 item4"; }
   .venta {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -354,4 +431,10 @@ h6 {
   .empleo {
     font-size: 12px; }
   .busqueda {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .compliance p {
+    font-size: 13px; }
+  .secretary p {
+    font-size: 13px; }
+  .trabajar {
+    font-size: 16px; } }

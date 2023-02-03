@@ -1,17 +1,18 @@
 .grid2 {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(1, fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-template-areas:
-    "empleo"
-    "busqueda"
-    "item10";
+    "empleo empleo"
+    "busqueda busqueda"
+    "compliance secretary"
+    "item10 item10";
   gap: 20px;
 }
 
 .empleo {
-  background-color: rgb(181, 181, 243);
+  background-color: rgba(171, 164, 164, 0.646);
   display: grid;
   width: 100%;
   grid-area: empleo;
@@ -20,7 +21,7 @@
 }
 
 .busqueda {
-  background-color: rgb(181, 181, 243);
+  background-color: rgba(171, 164, 164, 0.646);
   display: grid;
   width: 100%;
   grid-area: empleo;
@@ -35,6 +36,26 @@
   text-align: center;
   margin-top: 10px;
   border: 1.5px solid rgb(70, 69, 69);
+}
+
+// .box-container {
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   text-align: centers;
+//   gap: 100px;
+// }
+
+.compliance {
+  border: 1px solid rgb(70, 69, 69);
+
+  grid-area: compliance;
+}
+
+.secretary {
+  border: 1px solid rgb(70, 69, 69);
+
+  grid-area: secretary;
 }
 
 .item10 {
