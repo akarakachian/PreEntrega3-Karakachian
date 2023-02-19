@@ -302,6 +302,20 @@ h6 {
   font-family: "Merriweather", serif;
   font-style: oblique; }
 
+.item4 {
+  grid-area: item4;
+  width: 100%;
+  background-color: rgba(104, 104, 78, 0.692);
+  border: 1px solid #464545;
+  bottom: 0;
+  padding: 1em 0;
+  position: absolute;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto; }
+
 /**/
 @media (max-width: 768px) {
   .navBar {
