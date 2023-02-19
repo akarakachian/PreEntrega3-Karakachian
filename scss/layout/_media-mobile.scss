@@ -154,13 +154,13 @@
       "producto4";
   }
 
-  .formulario {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas:
-      "formulario-registro"
-      "item4";
-  }
+  // .contacto {
+  //   grid-template-columns: 1fr;
+  //   grid-template-rows: repeat(2, 1fr);
+  //   grid-template-areas:
+  //     "contacto"
+  //     "item4";
+  // }
 
   .empleo {
     font-size: 12px;
@@ -179,4 +179,15 @@
   .trabajar {
     font-size: 16px;
   }
-} ;
+  .contacto .text {
+    padding: 5px;
+
+    font-size: 9px;
+  }
+
+  .contacto .datos {
+    font-weight: 300;
+    font-size: 9px;
+    width: 95%;
+  }
+}

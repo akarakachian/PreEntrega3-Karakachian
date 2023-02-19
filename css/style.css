@@ -456,10 +456,6 @@ h6 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "producto1" "producto2" "producto3" "producto4"; }
-  .formulario {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "formulario-registro" "item4"; }
   .empleo {
     font-size: 12px; }
   .busqueda {
@@ -469,4 +465,11 @@ h6 {
   .secretary p {
     font-size: 13px; }
   .trabajar {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .contacto .text {
+    padding: 5px;
+    font-size: 9px; }
+  .contacto .datos {
+    font-weight: 300;
+    font-size: 9px;
+    width: 95%; } }
