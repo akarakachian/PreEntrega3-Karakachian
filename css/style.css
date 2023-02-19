@@ -270,6 +270,38 @@ h6 {
   text-align: center;
   margin-top: auto; }
 
+.contacto {
+  grid-area: contacto;
+  display: grid;
+  width: 800;
+  height: 100vh;
+  padding: 70px;
+  color: grey;
+  margin-top: 0px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "contacto" "item4"; }
+
+.contacto .text {
+  color: black;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  padding: 25px; }
+
+.contacto .datos {
+  width: 98%;
+  padding: 12px;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Merriweather", serif;
+  font-style: oblique; }
+
 .titulo-formulario {
   text-align: center;
   margin-top: 30px;
@@ -278,7 +310,7 @@ h6 {
 
 .formulario-registro {
   grid-area: formulario-registro;
-  width: 100%;
+  width: 800;
   margin-top: 25px;
   border-radius: 4px;
   margin-bottom: 15px;
