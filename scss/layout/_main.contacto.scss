@@ -41,30 +41,3 @@
   font-family: "Merriweather", serif;
   font-style: oblique;
 }
-
-.titulo-formulario {
-  text-align: center;
-  margin-top: 30px;
-  border: 1px solid rgb(70, 69, 69);
-  font-family: $typo-secundario;
-}
-
-.formulario-registro {
-  grid-area: formulario-registro;
-  width: 800;
-
-  margin-top: 25px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-  border: 1px solid #8bb67e;
-}
-
-.formulario {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    "formulario-registro"
-    "item4";
-}

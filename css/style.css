@@ -302,27 +302,6 @@ h6 {
   font-family: "Merriweather", serif;
   font-style: oblique; }
 
-.titulo-formulario {
-  text-align: center;
-  margin-top: 30px;
-  border: 1px solid #464545;
-  font-family: "Roboto Mono", monospace; }
-
-.formulario-registro {
-  grid-area: formulario-registro;
-  width: 800;
-  margin-top: 25px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-  border: 1px solid #8bb67e; }
-
-.formulario {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "formulario-registro" "item4"; }
-
 /**/
 @media (max-width: 768px) {
   .navBar {
